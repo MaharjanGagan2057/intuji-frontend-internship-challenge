@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -17,7 +18,7 @@
         <div class="max-w-7xl mx-auto px-4 ml-5px">
             <div class="flex justify-between h-16">
                 <div class="flex items-center space-x-4">
-                    <a href="/home" class="text-xl font-bold">AR SAKHIR</a>
+                    <a href="/index.html" class="text-xl font-bold">AR SAKHIR</a>
                     <div class="flex justify-items-center space-x-4 ml-10">
                         
                         <a href="/product" class="hover:text-blue-700 px-3 py-2 rounded">Product</a>
@@ -41,10 +42,10 @@
 
 
     <!-- MAIN LANDING SECTION -->
-  <div class="bg-blue-200 h-screen w-full flex">
+  <div class="bg-blue-200 h-screen w-full flex ">
 
   <!-- LEFT SECTION (50%) -->
-  <div class="w-1/2 h-full flex items-center justify-center ">
+  <div class="w-1/2 h-full flex items-center justify-center " >
     <div class="w-3/4 text-center">
       <h1 class="text-black text-4xl font-bold">
         Managing Freelance Payments Has Been Easier
@@ -59,7 +60,7 @@
 
       <div class="flex justify-left mt-10">
 
-          <button class="bg-blue-700 rounded-full text-white h-12    w-40 m-5">Get Started</button>
+          <button class="bg-blue-700 rounded-full text-white h-12  hover:bg-green-600  w-40 m-5">Get Started</button>
       <a href="#" class="flex items-center ">
     <img src="playbutton.png" alt="" class="w-10 h-10 rounded-full">
     <span class="ml-2 text-black">See How It Works</span>
@@ -79,21 +80,23 @@
   </div>
 
   <!-- RIGHT SECTION (50%) -->
-  <div class="w-1/2 h-full flex   justify-center ">
+   <!-- Aos animation -->
+  <div class="w-1/2 h-full flex   justify-center  " data-aos="fade-up" data-aos-duration="2000">
 
    
-    <img src="handcard1.png" alt="" class="w-30 h-350 object-contain justify-center mt-4 relative">
-    <img src="hand3.png" alt="" class="w-30 h-350 object-contain mt-4">
+    <img src="handcard1.png" alt="" class="w-30 h-350 object-contain justify-center mt-4 relative" >
+    <img src="hand3.png" alt="" class="w-30 h-350 object-contain mt-4 ">
 
-  </div>
+    
+</div>
 
 </div>
 <!-- END MAIN LANDING SECTION -->
 
 
 <!--  company section logo  -->
-<div class="  bg-white h-20 w-full text-center  ">
-    <p class=" m-5">Over 32K software Business Growing With AR Shakir.</p>
+<div class="  bg-white h-20 w-full text-center m-10 ">
+    <p class=" m-5">Over 32K software Business Growing With AR Shakir.</p> <br>
 
     <svg width="1258" height="33" viewBox="0 0 1258 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="justify-center items-center mx-auto">
 <path d="M19.2721 26.7498V21.1895H13.2168C11.5701 21.1895 10.0448 22.0539 9.20137 23.4652L7.23828 26.7498H19.2721Z" fill="#63D2F9"/>
@@ -114,8 +117,95 @@
 <path d="M1120.52 24.3274C1120.36 24.2324 1120.22 23.9995 1120.22 23.8104V8.32749C1120.22 8.1381 1120.36 7.90557 1120.52 7.81035L1134.1 0.0712809C1134.27 -0.0237603 1134.54 -0.0237603 1134.7 0.0712809L1148.28 7.81121C1148.44 7.90625 1148.58 8.13879 1148.58 8.32818V23.8111C1148.58 24 1148.44 24.2327 1148.28 24.3281L1134.7 32.0674C1134.54 32.1624 1134.27 32.1624 1134.1 32.0674L1120.52 24.3274ZM1161.34 9.86843V16.1484H1164.02C1165.97 16.1484 1166.84 15.3544 1166.84 14.0551V11.9617C1166.84 10.6626 1165.97 9.86843 1164.02 9.86843H1161.34ZM1161.34 18.1454V23.7517C1161.34 24.0884 1161.25 24.2327 1160.95 24.2327H1159.62C1159.34 24.2327 1159.23 24.0884 1159.23 23.7517V8.35276C1159.23 8.0159 1159.34 7.87137 1159.62 7.87137H1164.02C1167.75 7.87137 1168.94 9.60376 1168.94 11.5768V14.4402C1168.94 16.413 1167.75 18.1454 1164.02 18.1454H1161.34ZM1173.82 9.86843V15.7634H1176.51C1178.46 15.7634 1179.32 14.9934 1179.32 13.6701V11.9617C1179.32 10.6626 1178.46 9.86843 1176.51 9.86843H1173.82ZM1173.82 17.7605V23.7517C1173.82 24.0884 1173.74 24.2327 1173.43 24.2327H1172.11C1171.83 24.2327 1171.72 24.0884 1171.72 23.7517V8.35276C1171.72 8.0159 1171.83 7.87137 1172.11 7.87137H1176.51C1180.23 7.87137 1181.42 9.60376 1181.42 11.5768V14.0791C1181.42 15.5468 1180.75 16.8702 1178.89 17.4478L1181.49 23.7517C1181.6 24.0404 1181.4 24.2327 1181.1 24.2327H1179.8C1179.5 24.2327 1179.45 24.0404 1179.32 23.7517L1176.88 17.7605H1173.82ZM1192.81 11.7693C1192.81 10.47 1191.9 9.67595 1189.84 9.67595C1187.8 9.67595 1186.89 10.47 1186.89 11.7693V20.3348C1186.89 21.6343 1187.8 22.4281 1189.84 22.4281C1191.9 22.4281 1192.81 21.6343 1192.81 20.3348V11.7693ZM1184.65 11.3843C1184.65 9.41127 1185.93 7.67905 1189.84 7.67905C1193.77 7.67905 1195.05 9.41127 1195.05 11.3843V20.72C1195.05 22.693 1193.77 24.4254 1189.84 24.4254C1185.93 24.4254 1184.65 22.693 1184.65 20.72V11.3843ZM1207.12 7.87137C1207.42 7.87137 1207.55 7.99184 1207.55 8.32853V9.41127C1207.55 9.74813 1207.42 9.86843 1207.12 9.86843H1203.46V23.7517C1203.46 24.0884 1203.35 24.2327 1203.05 24.2327H1201.63C1201.34 24.2327 1201.22 24.0884 1201.22 23.7517V9.86843H1197.56C1197.24 9.86843 1197.13 9.74813 1197.13 9.41127V8.32853C1197.13 7.99184 1197.24 7.87137 1197.56 7.87137H1207.12ZM1217.77 11.7693C1217.77 10.47 1216.86 9.67595 1214.8 9.67595C1212.76 9.67595 1211.85 10.47 1211.85 11.7693V20.3348C1211.85 21.6343 1212.76 22.4281 1214.8 22.4281C1216.86 22.4281 1217.77 21.6343 1217.77 20.3348V11.7693ZM1209.61 11.3843C1209.61 9.41127 1210.89 7.67905 1214.8 7.67905C1218.73 7.67905 1220.01 9.41127 1220.01 11.3843V20.72C1220.01 22.693 1218.73 24.4254 1214.8 24.4254C1210.89 24.4254 1209.61 22.693 1209.61 20.72V11.3843ZM1233.24 23.7756C1233.24 24.0884 1233.15 24.2327 1232.85 24.2327H1231.66C1231.44 24.2327 1231.36 24.1605 1231.27 24.0162L1226.18 14.1034C1225.7 13.2129 1225.44 12.467 1225.4 12.3708V23.7756C1225.4 24.0884 1225.29 24.2327 1225.01 24.2327H1223.8C1223.52 24.2327 1223.41 24.0884 1223.41 23.7756V8.32853C1223.41 8.0159 1223.52 7.87137 1223.8 7.87137H1225.01C1225.18 7.87137 1225.29 7.94355 1225.36 8.06385L1230.58 18.1936C1230.88 18.771 1231.25 19.7333 1231.25 19.7333V8.32853C1231.25 8.0159 1231.38 7.87137 1231.66 7.87137H1232.85C1233.15 7.87137 1233.24 8.0159 1233.24 8.32853V23.7756ZM1236.97 24.2327C1236.68 24.2327 1236.58 24.0884 1236.58 23.7517V8.35276C1236.58 8.0159 1236.68 7.87137 1236.97 7.87137H1244.37C1244.65 7.87137 1244.78 7.99184 1244.78 8.32853V9.41127C1244.78 9.74813 1244.65 9.86843 1244.37 9.86843H1238.68V14.7288H1243.98C1244.28 14.7288 1244.41 14.8491 1244.41 15.1859V16.2206C1244.41 16.5334 1244.28 16.6777 1243.98 16.6777H1238.68V22.2358H1244.61C1244.89 22.2358 1245.02 22.3321 1245.02 22.6688V23.7756C1245.02 24.1126 1244.89 24.2327 1244.61 24.2327H1236.97ZM1256.96 7.87137C1257.24 7.87137 1257.37 7.99184 1257.37 8.32853V9.41127C1257.37 9.74813 1257.24 9.86843 1256.96 9.86843H1253.49V23.7517C1253.49 24.0884 1253.38 24.2327 1253.1 24.2327H1251.76C1251.48 24.2327 1251.37 24.0884 1251.37 23.7517V9.86843H1247.91C1247.6 9.86843 1247.49 9.74813 1247.49 9.41127V8.32853C1247.49 7.99184 1247.6 7.87137 1247.91 7.87137H1256.96Z" fill="#E15B29"/>
 </svg>
     
+</div><br>
+<!-- logo section end -->
+
+
+<!-- section heading -->
+<div class="mt-10 mx-20 flex-inline gap-10 text-center flex  md:flex-row justify-center items-center"  data-aos="fade-down" data-aos-duration="2000">
+   
+    <span class="w-1/2 text-start"  >
+
+        <h2 class="text-4xl ">Automated <br>Portfolio Tracking</h2> <br>
+        <p>Yet bed any for travelling assistance indulgence unpleasing. <br> Not thoughts all exercise blessing. </p>
+    </span>
+
+    <div class=" bg-blue-100 p-5  rounded-lg justify-center">
+        <!-- svg double comma -->
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="22" cy="22" r="22" fill="black"/>
+<path d="M29.1702 14.2559L28.8533 16.7119C28.0787 16.6591 27.4801 16.7999 27.0575 17.1344C26.635 17.4689 26.3533 17.9355 26.2125 18.534C26.0716 19.1326 26.0452 19.8104 26.1332 20.5675H29.1702V26.9319H23.334V20.0393C23.334 17.9619 23.8269 16.395 24.8128 15.3386C25.8163 14.2647 27.2688 13.9038 29.1702 14.2559ZM21.0364 14.2559L20.7195 16.7119C19.9449 16.6591 19.3463 16.7999 18.9238 17.1344C18.5012 17.4689 18.2195 17.9355 18.0787 18.534C17.9379 19.1326 17.9114 19.8104 17.9995 20.5675H21.0364V26.9319H15.2002V20.0393C15.2002 17.9619 15.6932 16.395 16.6791 15.3386C17.6826 14.2647 19.135 13.9038 21.0364 14.2559Z" fill="white"/>
+</svg>
+
+        <span class=" rounded-full  text-start p-5 ">
+
+            <p >Wise busy past both park when an ye no. <br> Nay likely her length sooner thrown sex lively income. <br> The expense windows adapted sir. Wrong widen. <br> <br>
+                - Mike Taylor, Web Designer
+            </p> 
+            
+        </span>
+    </div>
+
 </div>
 
+<!-- wallets -->
+<div class="m-auto flex justify-center items-center  gap-10  w-full h-[500px]" data-aos="fade-down" data-aos-duration="2000">
+<!--01 wallet -->
+<div class="h-[350px] w-[300px]  border  border-black rounded-lg  p-5  ">
+    <p >01</p><br>
+    <div class="flex justify-center  ">
+        <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-5"> >
+            <rect y="15" width="50" height="30" fill="#3734A9"/>
+            <rect width="39" height="10" fill="black"/>
+        </svg>
+    </div> 
+
+    <h2 class="font-bold text-2xl text-center">Connect wallets & <br> companies</h2> <br>
+    <p class="text-center">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. </p>
+
+</div>
+
+<!-- 02 wallet -->
+<div class=" h-[350px] w-[300px] border  border-black rounded-lg  p-5 m-10 ">
+    <p >02</p><br>
+    <div class="flex justify-center  ">
+        <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg"class="mb-5">
+<rect y="15" width="50" height="30" fill="#FF7F5C"/>
+<rect width="39" height="10" fill="black"/>
+</svg>
+
+    </div> 
+
+    <h2 class="font-bold text-2xl text-center">Review
+ <br> transactions</h2> <br>
+    <p class="text-center">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.   </p>
+
+</div>
+
+<!-- 03 wallet -->
+<div class=" h-[350px] w-[300px]  border  border-black rounded-lg  p-5  ">
+    <p >03</p><br>
+    <div class="flex justify-center  ">
+       <svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-5">
+<rect y="15" width="50" height="30" fill="#FDBC64" />
+<rect width="39" height="10" fill="black"/>
+</svg>
+
+    </div> 
+
+    <h2 class="font-bold text-2xl text-center">Get income <br> insights</h2> <br>
+    <p class="text-center">Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of. </p>
+
+</div>
+</div>
+
+
+
+<!-- AOS Script Initialization -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
